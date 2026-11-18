@@ -1,0 +1,24 @@
+# Default parameters of the FNB-UPC AIS processing scripts.
+# Copy this file, edit it and pass it with --config to either script.
+
+# Message types that are written to the interim files (decode step).
+analysed_message_types = [1, 2, 3, 4, 5, 18, 24]
+
+# Geographic box applied to dynamic messages (preprocess step).
+# Positions outside the box are removed. The box is NOT a coastline mask.
+# Values as in the paper (Methods, filtering step A.1).
+[geographic_box]
+lat_min = 34.98034801
+lat_max = 44.60192492
+lon_min = -3.51284901
+lon_max = 11.07360234
+
+# "Not Available Data" values defined in ITU-R M.1371, expressed in the units in which
+# the decoder writes each variable (see README, "Units").
+[not_available]
+lat = 91
+lon = 181
+sog = 1023      # speed over ground, 1/10 knot
+rot = -128      # rate of turn, raw AIS ROT code (Class A only)
+cog = 360       # course over ground, degrees
+hdg = 511       # true heading, degrees

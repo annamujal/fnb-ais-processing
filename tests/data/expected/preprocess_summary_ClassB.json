@@ -1,0 +1,9 @@
+{
+  "dynamic_initial": 170,
+  "dynamic_after_box": 167,
+  "dynamic_after_removing_all_nan": 167,
+  "dynamic_after_duplicates": 167,
+  "static_initial": 66,
+  "static_after_first_duplicates": 47,
+  "static_final": 47
+}

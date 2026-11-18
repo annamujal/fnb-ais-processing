@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the datasets it processes."
+title: "FNB-UPC AIS processing: decoding and filtering of raw AIS NMEA* files"
+version: 1.1.1
+authors:
+  - family-names: Mujal-Colilles
+    given-names: Anna
+  - family-names: Graells Turu
+    given-names: Francesc Xavier
+  - family-names: Castells-Sanabra
+    given-names: Marcella
+  - family-names: Fonollosa
+    given-names: Jordi
+  - family-names: Vigo
+    given-names: Marc
+  - family-names: Uyà
+    given-names: Àfrica
+  - family-names: Cardona
+    given-names: Andreas
+  - family-names: Llull
+    given-names: Toni
+license: MIT
+repository-code: "[[GitHub URL]]"
+doi: "[[Zenodo DOI after the first release]]"
+references:
+  - type: dataset
+    title: "AIS NMEA raw messages from the Barcelona School of Nautical Studies (FNB-UPC)"
+    authors:
+      - {family-names: Mujal-Colilles, given-names: Anna}
+      - {family-names: Fonollosa, given-names: Jordi}
+      - {family-names: Vigo, given-names: Marc}
+      - {family-names: Castells-Sanabra, given-names: Marcella}
+      - {family-names: Llull, given-names: Toni}
+    year: 2026
+    version: V1
+    publisher: {name: "CORA.Repositori de Dades de Recerca"}
+    doi: 10.34810/DATA3419
+  - type: dataset
+    title: "AIS maritime traffic data from the Barcelona School of Nautical Studies (FNB-UPC)"
+    authors:
+      - {family-names: Mujal-Colilles, given-names: Anna}
+      - {family-names: Castells-Sanabra, given-names: Marcella}
+      - {family-names: Vigo Anglada, given-names: Marc}
+      - {family-names: Fonollosa, given-names: Jordi}
+      - {family-names: Graells Turu, given-names: Francesc Xavier}
+    year: 2025
+    version: V2
+    publisher: {name: "CORA.Repositori de Dades de Recerca"}
+    doi: 10.34810/DATA2026

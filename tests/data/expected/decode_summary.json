@@ -1,0 +1,18 @@
+{
+  "decoder_exception_BadChecksumError": 2,
+  "files_read": 1,
+  "lines_read": 3004,
+  "lines_with_fewer_than_6_chars_after_star": 8,
+  "multipart_fragment_waiting_for_next_sentence": 171,
+  "skipped_empty_payload": 780,
+  "skipped_not_aivdm_or_aivdo": 6,
+  "type_not_supported_by_decoder_11": 2,
+  "type_not_supported_by_decoder_20": 62,
+  "type_not_supported_by_decoder_8": 1,
+  "written_123": 1410,
+  "written_18": 170,
+  "written_24A": 73,
+  "written_24B": 66,
+  "written_4": 90,
+  "written_5": 171
+}

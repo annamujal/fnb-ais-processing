@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fnb-ais-processing"
+version = "1.1.1"
+description = "Decoding and filtering of the FNB-UPC raw AIS NMEA* files"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = ["numpy", "pandas"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+fnb-ais-fetch-pyaism = "fnb_ais.fetch_pyaism:fetch"
+fnb-ais-decode = "fnb_ais.decode:main"
+fnb-ais-preprocess = "fnb_ais.preprocess:main"
+
+[tool.setuptools]
+packages = ["fnb_ais"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
