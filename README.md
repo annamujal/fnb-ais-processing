@@ -13,7 +13,6 @@ produces the database of doi:10.34810/DATA2026 as described in Table 5 of the pa
 |---|---|---|---|
 | 1. Decoding | `fnb_ais.decode` (this repository) | `decoded_*.txt` | speed in 1/10 knot, ROT raw AIS code |
 | 2. Filtering | `fnb_ais.preprocess` (this repository) | `filtered_*.csv`, `static_*.csv` | same as stage 1 |
-| 3. Processing | [[link, or "not released"]] | database of DATA2026 (Table 5) | speed in knots |
 
 ## Input format
 Hourly files `YYYYMMDDHHAIS.txt`; each line is one NMEA sentence followed by four digits
